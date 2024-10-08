@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.table tr td:first-child {
+    font-weight: 700;
+}
+
+.table tr td {
+    padding: .35rem;
+}
+
+.photo {
+    border-radius: 1rem;
+    width: 240px;
+}
